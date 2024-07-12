@@ -32,7 +32,6 @@ def calculate():
 
 def back(value):
     global equation
-    #value = 
     equation = equation[1:]
     label_display.config(text = equation)
     
